@@ -6,6 +6,9 @@ We offer OpenXtract in combination with Blender, where one only must download th
 
 ### Windows
 
+* [Blender 2.93 with OpenXtract with PyTorch and Cuda](https://nextcloud.mirevi.medien.hs-duesseldorf.de/s/HcNYY4P7Ybyp6Rw)
+* [Blender 2.93 with OpenXtract without PyTorch](https://nextcloud.mirevi.medien.hs-duesseldorf.de/s/TtQ2ky6MWPPgE3m)
+
 ### Linux
 
 * [Blender 2.93 with OpenXtract without PyTorch](https://nextcloud.mirevi.medien.hs-duesseldorf.de/s/zkBKppRZjAM8GiC)
@@ -23,3 +26,7 @@ pip install -r requirements.txt
 4. Compile the partition algorithms in [https://github.com/mati3230/3DPartitionAlgorithms](https://github.com/mati3230/3DPartitionAlgorithms) and copy the resulting dynamic libraries into this project.
 4. Zip this folder (not only the contents).
 5. Import the add-on in blender by importing the zip file. 
+
+## Citation
+
+Coming soon.
