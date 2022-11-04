@@ -1,4 +1,18 @@
-# Manual Installation with Miniconda
+# OpenXtract
+
+## Downloads
+
+We offer OpenXtract in combination with Blender, where one only must download the program to try OpenXtract.
+
+### Windows
+
+### Linux
+
+* [Blender 2.93 with OpenXtract without PyTorch](https://nextcloud.mirevi.medien.hs-duesseldorf.de/s/zkBKppRZjAM8GiC)
+
+### MacOs
+
+## Manual Installation with Miniconda
 
 1. Install [miniconda](https://docs.conda.io/en/latest/miniconda.html) and create an environment with a python version that matches your blender python interpreter.
 2. Install the dependencies with pip:

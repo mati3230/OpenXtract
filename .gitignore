@@ -37,8 +37,8 @@ libgeo.so
 libply_c.so
 libvccs.so
 libvgs.so
-lz4.so
 
+lz4.so
 boost_numpy39.so
 boost_python39.so
 pcl_common.so
