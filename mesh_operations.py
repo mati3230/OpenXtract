@@ -572,7 +572,7 @@ def semantic_segmentation(context, gpu=0, batch_size=32, num_point=4096, log_dir
     NUM_CLASSES = 13
     BATCH_SIZE = batch_size
     NUM_POINT = num_point
-    plugin_dir = 'D:/Projects/CalvinsBlenderAddOn'
+    plugin_dir = "./2.93/scripts/addons/OpenXtract"
     experiment_dir = plugin_dir + '/log/sem_seg/' + log_dir
 
     # load the model
