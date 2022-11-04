@@ -13,6 +13,8 @@
   </figcaption>
 </figure>
 
+OpenXtract is a Blender add-on that allows to extract the object of interest by applying partition algorithms. Furthermore, one can also use the PointNet++ semantic segmentation.
+
 ## Downloads
 
 We offer OpenXtract in combination with Blender, where one only must download the program to try OpenXtract. After the download, makse sure that OpenXtract is enabled as add-on. Click on Edit->Preferences, Add-Ons and search for OpenXtract. Activate the checkbox if it is disabled.  
