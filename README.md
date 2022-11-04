@@ -1,17 +1,20 @@
 # OpenXtract
 
+![Input](./figures/input.png "Reconstructed mesh of a living room scene.")
+![Cut-Pursuit Output](./figures/output_cp.png "Partition of the Cut-Pursuit algorithm.")
+
 ## Downloads
 
-We offer OpenXtract in combination with Blender, where one only must download the program to try OpenXtract.
+We offer OpenXtract in combination with Blender, where one only must download the program to try OpenXtract. After the download, makse sure that OpenXtract is enabled as add-on. Click on Edit->Preferences, Add-Ons and search for OpenXtract. Activate the checkbox if it is disabled.  
 
 ### Windows
 
-* [Blender 2.93 with OpenXtract with PyTorch and Cuda](https://nextcloud.mirevi.medien.hs-duesseldorf.de/s/HcNYY4P7Ybyp6Rw)
-* [Blender 2.93 with OpenXtract without PyTorch](https://nextcloud.mirevi.medien.hs-duesseldorf.de/s/TtQ2ky6MWPPgE3m)
+* [Blender 2.93 with OpenXtract with PyTorch and Cuda](https://nextcloud.mirevi.medien.hs-duesseldorf.de/s/HcNYY4P7Ybyp6Rw): Cuda 11 capable graphics card required. 
+* [Blender 2.93 with OpenXtract without PyTorch](https://nextcloud.mirevi.medien.hs-duesseldorf.de/s/TtQ2ky6MWPPgE3m): Does not require any specfic hardware. 
 
 ### Linux
 
-* [Blender 2.93 with OpenXtract without PyTorch](https://nextcloud.mirevi.medien.hs-duesseldorf.de/s/zkBKppRZjAM8GiC)
+* [Blender 2.93 with OpenXtract without PyTorch](https://nextcloud.mirevi.medien.hs-duesseldorf.de/s/zkBKppRZjAM8GiC): Does not require any specfic hardware. 
 
 ### MacOs
 
