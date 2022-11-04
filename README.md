@@ -1,21 +1,14 @@
 # OpenXtract
 
-<figure>
-  <a href="https://youtu.be/vklkLWeQSwg">
-  <img src="./figures/input.png" alt="Reconstructed mesh of a living room scene." title="image Title" width="800"/>
-  </a>
-  <figcaption align="center">
-    Reconstructed mesh of a living room scene.
-  </figcaption>
-  </figure> 
-<figure>
-  <a href="https://youtu.be/vklkLWeQSwg">
-  <img src="./figures/output_cp.png" alt="Partition of the Cut-Pursuit algorithm." title="image Title" width="800"/>
-  </a>
-    <figcaption align="center">
-    Partition of the Cut-Pursuit algorithm.
-  </figcaption>
-</figure>
+Reconstructed mesh of a living room scene.
+<a href="https://youtu.be/vklkLWeQSwg">
+<img src="./figures/input.png" alt="Reconstructed mesh of a living room scene." title="image Title" width="800"/>
+</a>
+    
+Partition of the Cut-Pursuit algorithm.
+<a href="https://youtu.be/vklkLWeQSwg">
+<img src="./figures/output_cp.png" alt="Partition of the Cut-Pursuit algorithm." title="image Title" width="800"/>
+</a>
 
 OpenXtract is a Blender add-on that allows to extract the object of interest by applying partition algorithms. Furthermore, one can also use the PointNet++ semantic segmentation. A short demonstration can be seen on [YouTube](https://youtu.be/vklkLWeQSwg).
 
