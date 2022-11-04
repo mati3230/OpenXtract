@@ -1,7 +1,17 @@
 # OpenXtract
 
-![Input](./figures/input.png "Reconstructed mesh of a living room scene.")
-![Cut-Pursuit Output](./figures/output_cp.png "Partition of the Cut-Pursuit algorithm.")
+<figure>
+  <img src="./figures/input.png" alt="Reconstructed mesh of a living room scene." title="image Title" width="800"/>
+  <figcaption align="center">
+    Reconstructed mesh of a living room scene.
+  </figcaption>
+  </figure> 
+<figure>
+  <img src="./figures/output_cp.png" alt="Partition of the Cut-Pursuit algorithm." title="image Title" width="800"/>
+  <figcaption align="center">
+    Partition of the Cut-Pursuit algorithm.
+  </figcaption>
+</figure>
 
 ## Downloads
 
@@ -17,6 +27,8 @@ We offer OpenXtract in combination with Blender, where one only must download th
 * [Blender 2.93 with OpenXtract without PyTorch](https://nextcloud.mirevi.medien.hs-duesseldorf.de/s/zkBKppRZjAM8GiC): Does not require any specfic hardware. 
 
 ### MacOs
+
+* Coming Soon.
 
 ## Manual Installation with Miniconda
 
