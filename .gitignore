@@ -30,6 +30,7 @@ pcl_kdtree.dll
 pcl_octree.dll
 pcl_search.dll
 pcl_segmentation.dll
+lz4.dll
 
 libplink.so
 libcp.so

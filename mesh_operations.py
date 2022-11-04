@@ -259,14 +259,14 @@ def apply_plinkage(context, params):
         else:
             use_normals = False
             point_idxs, p_vec, duration = libplink.plinkage_geo(P, target_, normals, k=k, angle=angle, min_cluster_size=min_cluster_size, angle_dev=angle_dev, use_normals=use_normals)
-        if type(p_vec) == list:
-             p_vec = np.array(p_vec, dtype=np.int32)    
     else:
         xyz, rgb, P, n_points, obj, colors_avaible = get_cloud(context=context)
         point_idxs, p_vec, duration = libplink.plinkage(P, k=k, angle=angle, min_cluster_size=min_cluster_size,
                                                      angle_dev=angle_dev)
         adjacency_list = get_adjacency_list(obj=obj, P=P)
     _, p_vec = graph_utils.refine(point_idxs=point_idxs, p_vec=p_vec, adjacency_list=adjacency_list)
+    if sys.platform == "darwin": # apple
+         p_vec = np.array(p_vec, dtype=np.int32)    
     create_meshes(p_vec=p_vec, xyz=xyz, rgb=rgb, obj=obj, colors_avaible=colors_avaible, algorithm="p-linkage")
 
 
@@ -350,12 +350,19 @@ def apply_cp(context, params):
     for i in range(len(edges)):
         edgesList.append([edges[i].vertices[0], edges[i].vertices[1]])
     edgesList = np.array(edgesList, dtype=np.uint32)
+    
+    reverseEdges = np.hstack((edgesList[:, 1][:, None], edgesList[:, 0][:, None]))
+    edgesList = np.vstack((edgesList, reverseEdges))
+
+    sortation = np.argsort(edgesList[:, 0])
+    edgesList = edgesList[sortation, :]
 
     distances = np.sqrt(np.sum((xyz[edgesList[:, 0]] - xyz[edgesList[:, 1]])**2, axis=1))
     source = np.array(edgesList[:, 0], copy=True)
     target = np.array(edgesList[:, 1], copy=True)
 
     uni_verts, direct_neigh_idxs, n_edges = np.unique(source, return_index=True, return_counts=True)
+    #print(uni_verts[0], direct_neigh_idxs[0], n_edges[0])
     source = source.astype(np.uint32)
     target = target.astype(np.uint32)
     uni_verts = uni_verts.astype(np.uint32)

@@ -689,6 +689,10 @@ def get_edges(mesh_vertices, adj_list):
     edges = np.zeros((2, len(neighbours)), dtype=np.uint32)
     edges[0, :] = v_idxs
     edges[1, :] = neighbours
+
+    reverseEdges = np.vstack((edges[1, :][None, :], edges[0, :][None, :]))
+    edges = np.hstack((edges, reverseEdges))
+
     edges = np.unique(edges, axis=1)
     
     # sort the source vertices
