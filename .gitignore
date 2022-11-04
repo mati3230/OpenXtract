@@ -1,0 +1,48 @@
+# Ignore the node_modules directory
+__pycache__
+
+# Ignore Logs
+*.so
+
+# Ignore the build directory
+dist
+
+# The file containing environment variables 
+.env
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sw*
+
+
+libplink.pyd
+libcp.pyd
+libgeo.pyd
+libply_c.pyd
+libvccs.pyd
+libvgs.pyd
+
+boost_numpy39.dll
+boost_python39.dll
+pcl_common.dll
+pcl_kdtree.dll
+pcl_octree.dll
+pcl_search.dll
+pcl_segmentation.dll
+
+libplink.so
+libcp.so
+libgeo.so
+libply_c.so
+libvccs.so
+libvgs.so
+lz4.so
+
+boost_numpy39.so
+boost_python39.so
+pcl_common.so
+pcl_kdtree.so
+pcl_octree.so
+pcl_search.so
+pcl_segmentation.so
