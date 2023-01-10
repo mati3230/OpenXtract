@@ -43,4 +43,13 @@ pip install -r requirements.txt
 
 ## Citation
 
-Coming soon.
+```
+@inproceedings{Tiator2022,
+   author = {Marcel Tiator and Calvin Huhn and Christian Geiger and Paul Grimm},
+   city = {Virtual Event},
+   journal = {Proceedings of the 5th International Conference on Artificial Intelligence and Virtual Reality - AIVR '22},
+   publisher = {IEEE},
+   title = {OpenXtract: A Blender Add-On for the Accelerated Extraction of the Objects of Interest},
+   year = {2022},
+}
+```
