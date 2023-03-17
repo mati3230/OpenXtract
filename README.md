@@ -10,7 +10,7 @@ Partition of the Cut-Pursuit algorithm.
 <img src="./figures/output_cp.png" alt="Partition of the Cut-Pursuit algorithm." title="image Title" width="800"/>
 </a>
 
-OpenXtract is a Blender add-on that allows to extract the object of interest by applying partition algorithms. Furthermore, one can also use the PointNet++ semantic segmentation. A short demonstration can be seen on [YouTube](https://youtu.be/vklkLWeQSwg), and a [geeting started video](https://youtu.be/BAB7zqLc2gc) is also available.
+OpenXtract is a Blender add-on that allows to extract the object of interest by applying partition algorithms. Furthermore, one can also use the PointNet++ semantic segmentation. A short demonstration can be seen on [YouTube](https://youtu.be/vklkLWeQSwg), and a [quickstart video](https://youtu.be/BAB7zqLc2gc) is also available.
 
 ## Downloads
 
