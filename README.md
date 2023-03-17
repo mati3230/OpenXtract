@@ -53,3 +53,9 @@ pip install -r requirements.txt
    year = {2022},
 }
 ```
+
+## Acknowledgements
+
+This project is sponsored by: German Federal Ministry of Education and Research (BMBF) under the project number 13FH022IX6. Project name: Interactive body-near production technology 4.0 (German: Interaktive körpernahe Produktionstechnik 4.0 (iKPT4.0))
+
+![bmbf](figures/bmbflogo.jpg)
